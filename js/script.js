@@ -1,12 +1,81 @@
-//Choose a random color
-const button = document.querySelector('button')
-const body = document.querySelector('body')
-const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
+// //Choose a random color
 
-body.style.backgroundColor = 'violet'
-button.addEventListener('click', changeBackground)
+const button = document.querySelector(".btn");
+const page = document.querySelector("body");
+const colors = ["purple", "blue", "red", "green"];
 
-function changeBackground(){
-const colorIndex= parseInt(Math.random()*colors.length)
-body.style.backgroundColor = colors[colorIndex]
-}
+page.style.backgroundColor = "purple";
+
+button.addEventListener("click", function(){
+    const aleaColor = parseInt(Math.random() * colors.length)
+    page.style.backgroundColor = colors[aleaColor] ;
+})
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
